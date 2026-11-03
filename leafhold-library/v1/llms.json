@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "published_at": "2026-11-03T13:53:01Z",
+  "models": [
+    {
+      "id": "phi-3-mini-4k-instruct-q4-k-m",
+      "name": "Phi-3 Mini 4K Instruct",
+      "description": "Fast lightweight instruct model for lower-memory systems and testing.",
+      "filename": "Phi-3-mini-4k-instruct-Q4_K_M.gguf",
+      "download_url": "https://huggingface.co/bartowski/Phi-3-mini-4k-instruct-GGUF/resolve/main/Phi-3-mini-4k-instruct-Q4_K_M.gguf",
+      "sha256": "28a89b4ddb5766355f24e362ae4078b4c35b9ca9568df5fc9e6d9aeee4dee834",
+      "size_bytes": 2390000000,
+      "kv_cache_bytes_per_token": 393216,
+      "context_window": 2048,
+      "default_context_length": 2048,
+      "context_length_options": [
+        2048
+      ],
+      "provider": "Microsoft",
+      "quantization": "Q4_K_M"
+    },
+    {
+      "id": "mistral-7b-instruct-v0.3-q4-k-m",
+      "name": "Mistral 7B Instruct v0.3",
+      "description": "Higher-quality general purpose instruct model with stronger reasoning and writing quality.",
+      "filename": "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+      "download_url": "https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+      "sha256": "1270d22c0fbb3d092fb725d4d96c457b7b687a5f5a715abe1e818da303e562b6",
+      "size_bytes": 4370000000,
+      "kv_cache_bytes_per_token": 131072,
+      "context_window": 32768,
+      "default_context_length": 8192,
+      "context_length_options": [
+        8192,
+        16384,
+        32768
+      ],
+      "provider": "Mistral AI",
+      "quantization": "Q4_K_M"
+    }
+  ]
+}
