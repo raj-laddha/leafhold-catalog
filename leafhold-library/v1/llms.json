@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "published_at": "2026-11-11T14:02:38Z",
+  "published_at": "2026-11-18T10:23:32Z",
   "models": [
     {
       "id": "phi-3-mini-4k-instruct-q4-k-m",
@@ -9,7 +9,7 @@
       "filename": "Phi-3-mini-4k-instruct-Q4_K_M.gguf",
       "download_url": "https://huggingface.co/bartowski/Phi-3-mini-4k-instruct-GGUF/resolve/main/Phi-3-mini-4k-instruct-Q4_K_M.gguf",
       "sha256": "28a89b4ddb5766355f24e362ae4078b4c35b9ca9568df5fc9e6d9aeee4dee834",
-      "size_bytes": 2390000000,
+      "size_bytes": 2393231360,
       "kv_cache_bytes_per_token": 393216,
       "context_window": 2048,
       "default_context_length": 2048,
@@ -28,7 +28,7 @@
       "filename": "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
       "download_url": "https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
       "sha256": "1270d22c0fbb3d092fb725d4d96c457b7b687a5f5a715abe1e818da303e562b6",
-      "size_bytes": 4370000000,
+      "size_bytes": 4372812000,
       "kv_cache_bytes_per_token": 131072,
       "context_window": 32768,
       "default_context_length": 8192,
